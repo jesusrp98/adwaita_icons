@@ -3,7 +3,7 @@
 Package that contains all icons built for the Adwaita Theme.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/jesusrp98/adwaita_icons/master/screenshots/0.png" width="256" hspace="4">
+  <img src="https://raw.githubusercontent.com/jesusrp98/adwaita_icons/master/screenshots/0.png" width="812" hspace="4">
 </p>
 
 This project brings all the icons from the GNOME world to the Flutter framework, allowing apps to better integrate with a GTK-based desktop enviroment.
