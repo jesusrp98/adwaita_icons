@@ -10,6 +10,9 @@ This project brings all the icons from the GNOME world to the Flutter framework,
 
 Please check out both the [Adwaita Icon Theme](https://gitlab.gnome.org/GNOME/adwaita-icon-theme) and the [Icon Library](https://gitlab.gnome.org/World/design/icon-library) repositories to learn more about the Adwaita Icon style and theme.
 
+- **Icon Library:** `0.0.8`.
+- **Adwaita Icon Theme:** `40.1`.
+
 ## Example
 
 If you want to take a deeper look at the example, take a look at the [example](https://github.com/jesusrp98/adwaita_icons/tree/master/example) folder provided with the project.
