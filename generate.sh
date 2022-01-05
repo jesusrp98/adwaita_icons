@@ -1,7 +1,10 @@
 #!/bin/sh
 
 # Location of the folder where all 'adwaita' icons reside.
-ICONS_FOLDER="adwaita-icon-theme/Adwaita/scalable"
+ORIGINAL_ICONS_SRC="adwaita-icon-theme/Adwaita/scalable"
+
+# Here we'll copy every adwaita icon to make life easier to icon_font_generator
+TEMP_ICONS_FOLDER="temp_adwaita_icons"
 
 # Output file where the code will be generated
 LIBRARY_OUTPUT="lib/src/adwaita_icons.dart"
@@ -12,11 +15,16 @@ then
     exit 1
 fi
 
-icon_font_generator --from=$ICONS_FOLDER \
+mkdir $TEMP_ICONS_FOLDER
+
+find $ORIGINAL_ICONS_SRC -name '*.svg' -print0 | xargs -0 -I{} -n 1 cp -a {} $TEMP_ICONS_FOLDER;
+
+icon_font_generator --from=$TEMP_ICONS_FOLDER \
                     --class-name=AdwaitaIcons \
                     --out-font=assets/fonts/adwaita_icons.ttf \
                     --out-flutter=$LIBRARY_OUTPUT \
                     --package=adwaita_icons \
                     --naming-strategy=snake
 
+rm -rf $TEMP_ICONS_FOLDER
 flutter format $LIBRARY_OUTPUT
