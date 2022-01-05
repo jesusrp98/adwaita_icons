@@ -1,0 +1,3 @@
+[submodule "adwaita-icon-theme"]
+	path = adwaita-icon-theme
+	url = https://gitlab.gnome.org/GNOME/adwaita-icon-theme.git

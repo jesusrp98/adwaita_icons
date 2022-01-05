@@ -1,5 +1,4 @@
 import 'package:adwaita_icons/adwaita_icons.dart';
-import 'package:example/icon_library.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +9,20 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'adwaita_icons',
-      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Adwaita Icons Demo',
+      home: AdwaitaIconsGrid(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class AdwaitaIconsGrid extends StatelessWidget {
+  static const _from = 0xf101;
+  static const _to = 0xf330;
+
+  static List<int> codes =
+      List.generate(_to - _from + 1, (index) => index + _from);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +31,10 @@ class MyHomePage extends StatelessWidget {
         crossAxisSpacing: 8,
         mainAxisSpacing: 8,
         children: [
-          for (final icon in adwaitaIconPaths) AdwaitaIcon(icon),
+          for (final code in codes)
+            Icon(
+              AdwaitaIconsData(code),
+            ),
         ],
       ),
     );

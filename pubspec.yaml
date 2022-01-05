@@ -10,8 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_svg: ">=1.0.0 <2.0.0"
-
 flutter:
-  assets:
-    - assets/icons/
+  fonts:
+    - family: AdwaitaIcons
+      fonts:
+        - asset: assets/fonts/adwaita_icons.ttf
