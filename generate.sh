@@ -24,7 +24,10 @@ icon_font_generator --from=$TEMP_ICONS_FOLDER \
                     --out-font=assets/fonts/adwaita_icons.ttf \
                     --out-flutter=$LIBRARY_OUTPUT \
                     --package=adwaita_icons \
-                    --naming-strategy=snake
+                    --naming-strategy=snake \
+		    --normalize
 
 rm -rf $TEMP_ICONS_FOLDER
+# Make AdwaitaIconsData class publicly accesible
+sed -i "s/_A/A/g" $LIBRARY_OUTPUT
 flutter format $LIBRARY_OUTPUT

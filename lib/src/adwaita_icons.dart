@@ -542,194 +542,170 @@ class AdwaitaIcons {
   static const IconData power_profile_power_saver_symbolic =
       AdwaitaIconsData(0xf298);
   static const IconData preferences_color_symbolic = AdwaitaIconsData(0xf299);
-  static const IconData preferences_desktop_accessibility_symbolic =
-      AdwaitaIconsData(0xf29a);
-  static const IconData preferences_desktop_appearance_symbolic =
-      AdwaitaIconsData(0xf29b);
-  static const IconData preferences_desktop_apps_symbolic =
-      AdwaitaIconsData(0xf29c);
-  static const IconData preferences_desktop_display_symbolic =
-      AdwaitaIconsData(0xf29d);
-  static const IconData preferences_desktop_font_symbolic =
-      AdwaitaIconsData(0xf29e);
-  static const IconData preferences_desktop_keyboard_shortcuts_symbolic =
-      AdwaitaIconsData(0xf29f);
-  static const IconData preferences_desktop_keyboard_symbolic =
-      AdwaitaIconsData(0xf2a0);
-  static const IconData preferences_desktop_locale_symbolic =
-      AdwaitaIconsData(0xf2a1);
-  static const IconData preferences_desktop_multitasking_symbolic =
-      AdwaitaIconsData(0xf2a2);
-  static const IconData preferences_desktop_remote_desktop_symbolic =
-      AdwaitaIconsData(0xf2a3);
-  static const IconData preferences_desktop_screensaver_symbolic =
-      AdwaitaIconsData(0xf2a4);
-  static const IconData preferences_desktop_wallpaper_symbolic =
-      AdwaitaIconsData(0xf2a5);
-  static const IconData preferences_other_symbolic = AdwaitaIconsData(0xf2a6);
+  static const IconData preferences_other_symbolic = AdwaitaIconsData(0xf29a);
   static const IconData preferences_system_details_symbolic =
-      AdwaitaIconsData(0xf2a7);
+      AdwaitaIconsData(0xf29b);
   static const IconData preferences_system_devices_symbolic =
-      AdwaitaIconsData(0xf2a8);
+      AdwaitaIconsData(0xf29c);
   static const IconData preferences_system_network_proxy_symbolic =
-      AdwaitaIconsData(0xf2a9);
+      AdwaitaIconsData(0xf29d);
   static const IconData preferences_system_network_symbolic =
-      AdwaitaIconsData(0xf2aa);
+      AdwaitaIconsData(0xf29e);
   static const IconData preferences_system_notifications_symbolic =
-      AdwaitaIconsData(0xf2ab);
+      AdwaitaIconsData(0xf29f);
   static const IconData preferences_system_parental_controls_symbolic =
-      AdwaitaIconsData(0xf2ac);
+      AdwaitaIconsData(0xf2a0);
   static const IconData preferences_system_privacy_symbolic =
-      AdwaitaIconsData(0xf2ad);
+      AdwaitaIconsData(0xf2a1);
   static const IconData preferences_system_search_symbolic =
-      AdwaitaIconsData(0xf2ae);
+      AdwaitaIconsData(0xf2a2);
   static const IconData preferences_system_sharing_symbolic =
-      AdwaitaIconsData(0xf2af);
-  static const IconData preferences_system_symbolic = AdwaitaIconsData(0xf2b0);
+      AdwaitaIconsData(0xf2a3);
+  static const IconData preferences_system_symbolic = AdwaitaIconsData(0xf2a4);
   static const IconData preferences_system_time_symbolic =
-      AdwaitaIconsData(0xf2b1);
-  static const IconData printer_error_symbolic = AdwaitaIconsData(0xf2b2);
-  static const IconData printer_network_symbolic = AdwaitaIconsData(0xf2b3);
-  static const IconData printer_printing_symbolic = AdwaitaIconsData(0xf2b4);
-  static const IconData printer_symbolic = AdwaitaIconsData(0xf2b5);
-  static const IconData printer_warning_symbolic = AdwaitaIconsData(0xf2b6);
-  static const IconData process_stop_symbolic = AdwaitaIconsData(0xf2b7);
-  static const IconData radio_checked_symbolic = AdwaitaIconsData(0xf2b8);
-  static const IconData radio_mixed_symbolic = AdwaitaIconsData(0xf2b9);
-  static const IconData radio_symbolic = AdwaitaIconsData(0xf2ba);
-  static const IconData rotation_allowed_symbolic = AdwaitaIconsData(0xf2bb);
-  static const IconData rotation_locked_symbolic = AdwaitaIconsData(0xf2bc);
-  static const IconData scanner_symbolic = AdwaitaIconsData(0xf2bd);
-  static const IconData screen_shared_symbolic = AdwaitaIconsData(0xf2be);
-  static const IconData security_high_symbolic = AdwaitaIconsData(0xf2bf);
-  static const IconData security_low_symbolic = AdwaitaIconsData(0xf2c0);
-  static const IconData security_medium_symbolic = AdwaitaIconsData(0xf2c1);
-  static const IconData selection_end_symbolic_rtl = AdwaitaIconsData(0xf2c2);
-  static const IconData selection_end_symbolic = AdwaitaIconsData(0xf2c3);
-  static const IconData selection_mode_symbolic = AdwaitaIconsData(0xf2c4);
-  static const IconData selection_start_symbolic_rtl = AdwaitaIconsData(0xf2c5);
-  static const IconData selection_start_symbolic = AdwaitaIconsData(0xf2c6);
-  static const IconData semi_starred_symbolic_rtl = AdwaitaIconsData(0xf2c7);
-  static const IconData semi_starred_symbolic = AdwaitaIconsData(0xf2c8);
-  static const IconData send_to_symbolic = AdwaitaIconsData(0xf2c9);
+      AdwaitaIconsData(0xf2a5);
+  static const IconData printer_error_symbolic = AdwaitaIconsData(0xf2a6);
+  static const IconData printer_network_symbolic = AdwaitaIconsData(0xf2a7);
+  static const IconData printer_printing_symbolic = AdwaitaIconsData(0xf2a8);
+  static const IconData printer_symbolic = AdwaitaIconsData(0xf2a9);
+  static const IconData printer_warning_symbolic = AdwaitaIconsData(0xf2aa);
+  static const IconData process_stop_symbolic = AdwaitaIconsData(0xf2ab);
+  static const IconData radio_checked_symbolic = AdwaitaIconsData(0xf2ac);
+  static const IconData radio_mixed_symbolic = AdwaitaIconsData(0xf2ad);
+  static const IconData radio_symbolic = AdwaitaIconsData(0xf2ae);
+  static const IconData rotation_allowed_symbolic = AdwaitaIconsData(0xf2af);
+  static const IconData rotation_locked_symbolic = AdwaitaIconsData(0xf2b0);
+  static const IconData scanner_symbolic = AdwaitaIconsData(0xf2b1);
+  static const IconData screen_shared_symbolic = AdwaitaIconsData(0xf2b2);
+  static const IconData security_high_symbolic = AdwaitaIconsData(0xf2b3);
+  static const IconData security_low_symbolic = AdwaitaIconsData(0xf2b4);
+  static const IconData security_medium_symbolic = AdwaitaIconsData(0xf2b5);
+  static const IconData selection_end_symbolic_rtl = AdwaitaIconsData(0xf2b6);
+  static const IconData selection_end_symbolic = AdwaitaIconsData(0xf2b7);
+  static const IconData selection_mode_symbolic = AdwaitaIconsData(0xf2b8);
+  static const IconData selection_start_symbolic_rtl = AdwaitaIconsData(0xf2b9);
+  static const IconData selection_start_symbolic = AdwaitaIconsData(0xf2ba);
+  static const IconData semi_starred_symbolic_rtl = AdwaitaIconsData(0xf2bb);
+  static const IconData semi_starred_symbolic = AdwaitaIconsData(0xf2bc);
+  static const IconData send_to_symbolic = AdwaitaIconsData(0xf2bd);
   static const IconData sidebar_show_right_rtl_symbolic =
-      AdwaitaIconsData(0xf2ca);
-  static const IconData sidebar_show_right_symbolic = AdwaitaIconsData(0xf2cb);
-  static const IconData sidebar_show_rtl_symbolic = AdwaitaIconsData(0xf2cc);
-  static const IconData sidebar_show_symbolic = AdwaitaIconsData(0xf2cd);
+      AdwaitaIconsData(0xf2be);
+  static const IconData sidebar_show_right_symbolic = AdwaitaIconsData(0xf2bf);
+  static const IconData sidebar_show_rtl_symbolic = AdwaitaIconsData(0xf2c0);
+  static const IconData sidebar_show_symbolic = AdwaitaIconsData(0xf2c1);
   static const IconData software_update_available_symbolic =
-      AdwaitaIconsData(0xf2ce);
+      AdwaitaIconsData(0xf2c2);
   static const IconData software_update_urgent_symbolic =
-      AdwaitaIconsData(0xf2cf);
-  static const IconData star_new_symbolic = AdwaitaIconsData(0xf2d0);
-  static const IconData starred_symbolic = AdwaitaIconsData(0xf2d1);
-  static const IconData start_here_symbolic = AdwaitaIconsData(0xf2d2);
-  static const IconData system_file_manager_symbolic = AdwaitaIconsData(0xf2d3);
-  static const IconData system_help_symbolic = AdwaitaIconsData(0xf2d4);
-  static const IconData system_lock_screen_symbolic = AdwaitaIconsData(0xf2d5);
-  static const IconData system_log_out_symbolic = AdwaitaIconsData(0xf2d6);
-  static const IconData system_reboot_symbolic = AdwaitaIconsData(0xf2d7);
-  static const IconData system_run_symbolic = AdwaitaIconsData(0xf2d8);
-  static const IconData system_search_symbolic = AdwaitaIconsData(0xf2d9);
-  static const IconData system_shutdown_symbolic = AdwaitaIconsData(0xf2da);
+      AdwaitaIconsData(0xf2c3);
+  static const IconData star_new_symbolic = AdwaitaIconsData(0xf2c4);
+  static const IconData starred_symbolic = AdwaitaIconsData(0xf2c5);
+  static const IconData start_here_symbolic = AdwaitaIconsData(0xf2c6);
+  static const IconData system_file_manager_symbolic = AdwaitaIconsData(0xf2c7);
+  static const IconData system_help_symbolic = AdwaitaIconsData(0xf2c8);
+  static const IconData system_lock_screen_symbolic = AdwaitaIconsData(0xf2c9);
+  static const IconData system_log_out_symbolic = AdwaitaIconsData(0xf2ca);
+  static const IconData system_reboot_symbolic = AdwaitaIconsData(0xf2cb);
+  static const IconData system_run_symbolic = AdwaitaIconsData(0xf2cc);
+  static const IconData system_search_symbolic = AdwaitaIconsData(0xf2cd);
+  static const IconData system_shutdown_symbolic = AdwaitaIconsData(0xf2ce);
   static const IconData system_software_install_symbolic =
-      AdwaitaIconsData(0xf2db);
-  static const IconData system_switch_user_symbolic = AdwaitaIconsData(0xf2dc);
-  static const IconData system_users_symbolic = AdwaitaIconsData(0xf2dd);
-  static const IconData tab_new_symbolic = AdwaitaIconsData(0xf2de);
-  static const IconData task_due_symbolic = AdwaitaIconsData(0xf2df);
-  static const IconData task_past_due_symbolic = AdwaitaIconsData(0xf2e0);
-  static const IconData text_editor_symbolic = AdwaitaIconsData(0xf2e1);
-  static const IconData text_x_generic_symbolic = AdwaitaIconsData(0xf2e2);
+      AdwaitaIconsData(0xf2cf);
+  static const IconData system_switch_user_symbolic = AdwaitaIconsData(0xf2d0);
+  static const IconData system_users_symbolic = AdwaitaIconsData(0xf2d1);
+  static const IconData tab_new_symbolic = AdwaitaIconsData(0xf2d2);
+  static const IconData task_due_symbolic = AdwaitaIconsData(0xf2d3);
+  static const IconData task_past_due_symbolic = AdwaitaIconsData(0xf2d4);
+  static const IconData text_editor_symbolic = AdwaitaIconsData(0xf2d5);
+  static const IconData text_x_generic_symbolic = AdwaitaIconsData(0xf2d6);
   static const IconData thunderbolt_acquiring_symbolic =
-      AdwaitaIconsData(0xf2e3);
-  static const IconData thunderbolt_symbolic = AdwaitaIconsData(0xf2e4);
+      AdwaitaIconsData(0xf2d7);
+  static const IconData thunderbolt_symbolic = AdwaitaIconsData(0xf2d8);
   static const IconData tools_check_spelling_symbolic =
-      AdwaitaIconsData(0xf2e5);
-  static const IconData touch_disabled_symbolic = AdwaitaIconsData(0xf2e6);
-  static const IconData touchpad_disabled_symbolic = AdwaitaIconsData(0xf2e7);
-  static const IconData tv_symbolic = AdwaitaIconsData(0xf2e8);
+      AdwaitaIconsData(0xf2d9);
+  static const IconData touch_disabled_symbolic = AdwaitaIconsData(0xf2da);
+  static const IconData touchpad_disabled_symbolic = AdwaitaIconsData(0xf2db);
+  static const IconData tv_symbolic = AdwaitaIconsData(0xf2dc);
   static const IconData uninterruptible_power_supply_symbolic =
-      AdwaitaIconsData(0xf2e9);
-  static const IconData user_available_symbolic = AdwaitaIconsData(0xf2ea);
-  static const IconData user_away_symbolic = AdwaitaIconsData(0xf2eb);
-  static const IconData user_bookmarks_symbolic = AdwaitaIconsData(0xf2ec);
-  static const IconData user_busy_symbolic = AdwaitaIconsData(0xf2ed);
-  static const IconData user_desktop_symbolic = AdwaitaIconsData(0xf2ee);
-  static const IconData user_home_symbolic = AdwaitaIconsData(0xf2ef);
-  static const IconData user_idle_symbolic = AdwaitaIconsData(0xf2f0);
-  static const IconData user_info_symbolic = AdwaitaIconsData(0xf2f1);
-  static const IconData user_invisible_symbolic = AdwaitaIconsData(0xf2f2);
-  static const IconData user_not_tracked_symbolic = AdwaitaIconsData(0xf2f3);
-  static const IconData user_offline_symbolic = AdwaitaIconsData(0xf2f4);
-  static const IconData user_status_pending_symbolic = AdwaitaIconsData(0xf2f5);
-  static const IconData user_trash_full_symbolic = AdwaitaIconsData(0xf2f6);
-  static const IconData user_trash_symbolic = AdwaitaIconsData(0xf2f7);
-  static const IconData utilities_terminal_symbolic = AdwaitaIconsData(0xf2f8);
-  static const IconData value_decrease_symbolic = AdwaitaIconsData(0xf2f9);
-  static const IconData value_increase_symbolic = AdwaitaIconsData(0xf2fa);
-  static const IconData video_display_symbolic = AdwaitaIconsData(0xf2fb);
+      AdwaitaIconsData(0xf2dd);
+  static const IconData user_available_symbolic = AdwaitaIconsData(0xf2de);
+  static const IconData user_away_symbolic = AdwaitaIconsData(0xf2df);
+  static const IconData user_bookmarks_symbolic = AdwaitaIconsData(0xf2e0);
+  static const IconData user_busy_symbolic = AdwaitaIconsData(0xf2e1);
+  static const IconData user_desktop_symbolic = AdwaitaIconsData(0xf2e2);
+  static const IconData user_home_symbolic = AdwaitaIconsData(0xf2e3);
+  static const IconData user_idle_symbolic = AdwaitaIconsData(0xf2e4);
+  static const IconData user_info_symbolic = AdwaitaIconsData(0xf2e5);
+  static const IconData user_invisible_symbolic = AdwaitaIconsData(0xf2e6);
+  static const IconData user_not_tracked_symbolic = AdwaitaIconsData(0xf2e7);
+  static const IconData user_offline_symbolic = AdwaitaIconsData(0xf2e8);
+  static const IconData user_status_pending_symbolic = AdwaitaIconsData(0xf2e9);
+  static const IconData user_trash_full_symbolic = AdwaitaIconsData(0xf2ea);
+  static const IconData user_trash_symbolic = AdwaitaIconsData(0xf2eb);
+  static const IconData utilities_terminal_symbolic = AdwaitaIconsData(0xf2ec);
+  static const IconData value_decrease_symbolic = AdwaitaIconsData(0xf2ed);
+  static const IconData value_increase_symbolic = AdwaitaIconsData(0xf2ee);
+  static const IconData video_display_symbolic = AdwaitaIconsData(0xf2ef);
   static const IconData video_joined_displays_symbolic =
-      AdwaitaIconsData(0xf2fc);
+      AdwaitaIconsData(0xf2f0);
   static const IconData video_single_display_symbolic =
-      AdwaitaIconsData(0xf2fd);
-  static const IconData video_x_generic_symbolic = AdwaitaIconsData(0xf2fe);
-  static const IconData view_app_grid_symbolic = AdwaitaIconsData(0xf2ff);
-  static const IconData view_conceal_symbolic = AdwaitaIconsData(0xf300);
-  static const IconData view_continuous_symbolic = AdwaitaIconsData(0xf301);
-  static const IconData view_dual_symbolic = AdwaitaIconsData(0xf302);
-  static const IconData view_fullscreen_symbolic = AdwaitaIconsData(0xf303);
-  static const IconData view_grid_symbolic = AdwaitaIconsData(0xf304);
-  static const IconData view_list_bullet_symbolic = AdwaitaIconsData(0xf305);
-  static const IconData view_list_ordered_symbolic = AdwaitaIconsData(0xf306);
-  static const IconData view_list_symbolic = AdwaitaIconsData(0xf307);
-  static const IconData view_mirror_symbolic = AdwaitaIconsData(0xf308);
+      AdwaitaIconsData(0xf2f1);
+  static const IconData video_x_generic_symbolic = AdwaitaIconsData(0xf2f2);
+  static const IconData view_app_grid_symbolic = AdwaitaIconsData(0xf2f3);
+  static const IconData view_conceal_symbolic = AdwaitaIconsData(0xf2f4);
+  static const IconData view_continuous_symbolic = AdwaitaIconsData(0xf2f5);
+  static const IconData view_dual_symbolic = AdwaitaIconsData(0xf2f6);
+  static const IconData view_fullscreen_symbolic = AdwaitaIconsData(0xf2f7);
+  static const IconData view_grid_symbolic = AdwaitaIconsData(0xf2f8);
+  static const IconData view_list_bullet_symbolic = AdwaitaIconsData(0xf2f9);
+  static const IconData view_list_ordered_symbolic = AdwaitaIconsData(0xf2fa);
+  static const IconData view_list_symbolic = AdwaitaIconsData(0xf2fb);
+  static const IconData view_mirror_symbolic = AdwaitaIconsData(0xf2fc);
   static const IconData view_more_horizontal_symbolic =
-      AdwaitaIconsData(0xf309);
-  static const IconData view_more_symbolic = AdwaitaIconsData(0xf30a);
-  static const IconData view_paged_symbolic = AdwaitaIconsData(0xf30b);
-  static const IconData view_pin_symbolic = AdwaitaIconsData(0xf30c);
-  static const IconData view_refresh_symbolic = AdwaitaIconsData(0xf30d);
-  static const IconData view_restore_symbolic = AdwaitaIconsData(0xf30e);
-  static const IconData view_reveal_symbolic = AdwaitaIconsData(0xf30f);
-  static const IconData view_sort_ascending_symbolic = AdwaitaIconsData(0xf310);
+      AdwaitaIconsData(0xf2fd);
+  static const IconData view_more_symbolic = AdwaitaIconsData(0xf2fe);
+  static const IconData view_paged_symbolic = AdwaitaIconsData(0xf2ff);
+  static const IconData view_pin_symbolic = AdwaitaIconsData(0xf300);
+  static const IconData view_refresh_symbolic = AdwaitaIconsData(0xf301);
+  static const IconData view_restore_symbolic = AdwaitaIconsData(0xf302);
+  static const IconData view_reveal_symbolic = AdwaitaIconsData(0xf303);
+  static const IconData view_sort_ascending_symbolic = AdwaitaIconsData(0xf304);
   static const IconData view_sort_descending_symbolic =
-      AdwaitaIconsData(0xf311);
-  static const IconData view_wrapped_symbolic_rtl = AdwaitaIconsData(0xf312);
-  static const IconData view_wrapped_symbolic = AdwaitaIconsData(0xf313);
-  static const IconData weather_clear_night_symbolic = AdwaitaIconsData(0xf314);
-  static const IconData weather_clear_symbolic = AdwaitaIconsData(0xf315);
+      AdwaitaIconsData(0xf305);
+  static const IconData view_wrapped_symbolic_rtl = AdwaitaIconsData(0xf306);
+  static const IconData view_wrapped_symbolic = AdwaitaIconsData(0xf307);
+  static const IconData weather_clear_night_symbolic = AdwaitaIconsData(0xf308);
+  static const IconData weather_clear_symbolic = AdwaitaIconsData(0xf309);
   static const IconData weather_few_clouds_night_symbolic =
-      AdwaitaIconsData(0xf316);
-  static const IconData weather_few_clouds_symbolic = AdwaitaIconsData(0xf317);
-  static const IconData weather_fog_symbolic = AdwaitaIconsData(0xf318);
-  static const IconData weather_overcast_symbolic = AdwaitaIconsData(0xf319);
+      AdwaitaIconsData(0xf30a);
+  static const IconData weather_few_clouds_symbolic = AdwaitaIconsData(0xf30b);
+  static const IconData weather_fog_symbolic = AdwaitaIconsData(0xf30c);
+  static const IconData weather_overcast_symbolic = AdwaitaIconsData(0xf30d);
   static const IconData weather_severe_alert_symbolic =
-      AdwaitaIconsData(0xf31a);
+      AdwaitaIconsData(0xf30e);
   static const IconData weather_showers_scattered_symbolic =
-      AdwaitaIconsData(0xf31b);
-  static const IconData weather_showers_symbolic = AdwaitaIconsData(0xf31c);
-  static const IconData weather_snow_symbolic = AdwaitaIconsData(0xf31d);
-  static const IconData weather_storm_symbolic = AdwaitaIconsData(0xf31e);
-  static const IconData weather_tornado_symbolic = AdwaitaIconsData(0xf31f);
-  static const IconData weather_windy_symbolic = AdwaitaIconsData(0xf320);
-  static const IconData web_browser_symbolic = AdwaitaIconsData(0xf321);
-  static const IconData window_close_symbolic = AdwaitaIconsData(0xf322);
-  static const IconData window_maximize_symbolic = AdwaitaIconsData(0xf323);
-  static const IconData window_minimize_symbolic = AdwaitaIconsData(0xf324);
-  static const IconData window_new_symbolic = AdwaitaIconsData(0xf325);
-  static const IconData window_restore_symbolic = AdwaitaIconsData(0xf326);
+      AdwaitaIconsData(0xf30f);
+  static const IconData weather_showers_symbolic = AdwaitaIconsData(0xf310);
+  static const IconData weather_snow_symbolic = AdwaitaIconsData(0xf311);
+  static const IconData weather_storm_symbolic = AdwaitaIconsData(0xf312);
+  static const IconData weather_tornado_symbolic = AdwaitaIconsData(0xf313);
+  static const IconData weather_windy_symbolic = AdwaitaIconsData(0xf314);
+  static const IconData web_browser_symbolic = AdwaitaIconsData(0xf315);
+  static const IconData window_close_symbolic = AdwaitaIconsData(0xf316);
+  static const IconData window_maximize_symbolic = AdwaitaIconsData(0xf317);
+  static const IconData window_minimize_symbolic = AdwaitaIconsData(0xf318);
+  static const IconData window_new_symbolic = AdwaitaIconsData(0xf319);
+  static const IconData window_restore_symbolic = AdwaitaIconsData(0xf31a);
   static const IconData x_office_address_book_symbolic =
-      AdwaitaIconsData(0xf327);
-  static const IconData x_office_calendar_symbolic = AdwaitaIconsData(0xf328);
-  static const IconData x_office_document_symbolic = AdwaitaIconsData(0xf329);
-  static const IconData x_office_drawing_symbolic = AdwaitaIconsData(0xf32a);
+      AdwaitaIconsData(0xf31b);
+  static const IconData x_office_calendar_symbolic = AdwaitaIconsData(0xf31c);
+  static const IconData x_office_document_symbolic = AdwaitaIconsData(0xf31d);
+  static const IconData x_office_drawing_symbolic = AdwaitaIconsData(0xf31e);
   static const IconData x_office_presentation_symbolic =
-      AdwaitaIconsData(0xf32b);
+      AdwaitaIconsData(0xf31f);
   static const IconData x_office_spreadsheet_symbolic =
-      AdwaitaIconsData(0xf32c);
-  static const IconData zoom_fit_best_symbolic = AdwaitaIconsData(0xf32d);
-  static const IconData zoom_in_symbolic = AdwaitaIconsData(0xf32e);
-  static const IconData zoom_original_symbolic = AdwaitaIconsData(0xf32f);
-  static const IconData zoom_out_symbolic = AdwaitaIconsData(0xf330);
+      AdwaitaIconsData(0xf320);
+  static const IconData zoom_fit_best_symbolic = AdwaitaIconsData(0xf321);
+  static const IconData zoom_in_symbolic = AdwaitaIconsData(0xf322);
+  static const IconData zoom_original_symbolic = AdwaitaIconsData(0xf323);
+  static const IconData zoom_out_symbolic = AdwaitaIconsData(0xf324);
 }
