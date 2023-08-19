@@ -1,5 +1,6 @@
 import 'package:adwaita_icons/adwaita_icons.dart';
-import 'package:example/icon_library.dart';
+import 'package:example/icon_glyph_library.dart';
+import 'package:example/icon_path_library.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +26,14 @@ class MyHomePage extends StatelessWidget {
         crossAxisSpacing: 8,
         mainAxisSpacing: 8,
         children: [
-          for (final icon in adwaitaIconPaths) AdwaitaIcon(icon),
+          for (int i = 0; i < adwaitaIconPaths.length; i++)
+            Row(
+              children: [
+                AdwaitaIcon(adwaitaIconPaths[i]),
+                Divider(),
+                Icon(adwaitaIconGlyphs[i])
+              ],
+            ),
         ],
       ),
     );
